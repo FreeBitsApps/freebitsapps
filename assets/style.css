@@ -186,3 +186,11 @@ details p { margin-bottom: 0.5rem; color: var(--ink-soft); }
 @media (prefers-reduced-motion: reduce) {
   .wave i { animation: none; }
 }
+
+/* Screenshot gallery */
+.shots { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.5rem; }
+.shots figure { margin: 0; }
+.shots img { display: block; width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--line); box-shadow: 0 14px 32px -16px rgba(90, 71, 219, 0.45); }
+.shots figcaption { margin-top: 0.6rem; color: var(--ink-soft); font-size: 0.95rem; }
+.shots figcaption strong { color: var(--ink); }
+.shots .shot-ipad { max-width: 32rem; }
